@@ -6,4 +6,4 @@ const Nutrition = () => {
   )
 }
 
-export default Nutrition
+export default Nutrition;

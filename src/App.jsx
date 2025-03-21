@@ -1,8 +1,9 @@
 import React from 'react'
+import Nutrition from './Pages.jsx/Nutrition'
 
 const App = () => {
   return (
-    <div className='bg-red-500'>hellow somalia student</div>
+<Nutrition/>
   )
 }
 
