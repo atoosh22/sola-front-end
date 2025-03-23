@@ -7,6 +7,7 @@ import intermmitentfasting  from '../assets/img/intermmitentfasting.jpg'
 import Dashdiet  from '../assets/img/Dashdiet.jpg'
 import protien from '../assets/icons/protien.png'
 import fats from '../assets/icons/fats.png'
+import batchcooks from '../assets/icons/batchcooks.png'
 import fatplantbaseddiets from '../assets/img/plantbaseddiet.jpg'
 import React from 'react'
 
@@ -185,31 +186,49 @@ function Balanced(){
     <>
   <div className="title text-center bg-gray-100">
     {/* title */}
-  <div className="title">
+  <div className="title py-6">
   <h2 className='text-2xl font-[Roboto]  font-bold'>Balanced Meal Planing</h2>
   <p>Create Nutritions, satisfying meals with these simple guidelines</p>
   </div>
 
 {/* plate method */}
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-     <div className="shadow-lg bg-[#fff] p-5 my-15">
-      <h2 className='py-4'>The Plate method</h2>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mx-3">
+    {/* box1 */}
+     <div className="shadow-lg bg-[#fff] p-5 my-10">
+      <h2 className='py-4 font-bold font-[Roboto]'>The Plate method</h2>
       <img src={plantbaseddiet} alt="" />
-    <div className="numbers my-10">
-    <h3><span className='bg-[#d8ede2] rounded-full text-center text-[#44B75E] px-2 py-1'>1</span>Fill half your plate whith non-starchy vegetables</h3>
+    <div className="numbers my-7 ">
+    <h3 className='mt-3'><span className='bg-[#d8ede2] rounded-full text-center text-[#44B75E] px-2 py-1 m-4 '>1</span>Fill half your plate whith non-starchy vegetables</h3>
+    <h3 className='mt-3'><span className='bg-[#d8ede2] rounded-full  text-[#44B75E] px-2 py-1 m-4 ' >2</span>Fill one quarter with protein-checking, fish, tofo,</h3>
+    <h3 className='mt-3 mr-14 md:ml-6 '><span className='bg-[#d8ede2] rounded-full text-center text-[#44B75E] px-2 py-1 m-6  '>3</span>Fill one quarter with complex carbohydrates </h3>
+    <h3 className='mt-3'><span className='bg-[#d8ede2] rounded-full text-center text-[#44B75E] px-2 py-1 m-4 '>4</span>Add a small amout of health fat-olive oil avocado</h3>
+
 
     </div>
      </div>
 
-      <div className="shadow-lg bg-[#fff] p-5 my-15">
-      <h2 className='py-4'>The Plate method</h2>
-      <img src={plantbaseddiet} alt="" />
+     {/* box2 */}
+
+      <div className="shadow-lg bg-[#fff] p-5 my-10">
+      <h2 className='py-4 font-bold font-[Roboto]'>Meal Prep Tips</h2>
+
+     
+      <div className="icon1 flex">
+      <span><h3><img className='w-10' src={batchcooks} alt="" /> </h3></span>
+      <h3 className='mt-2'>Batch cooks</h3>
+      </div>
+      <p className='pl-8 text-center'>prepare grains, proteins, and roasted vegetables in advence</p>
+      
+      {/* icon2 */}
+     
+
+      
+      </div>
+      </div>
+      
 
        </div>
 
-
-     </div> 
-  </div>
     </>
 
   )
