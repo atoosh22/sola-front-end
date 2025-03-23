@@ -220,7 +220,7 @@ function Balanced(){
       <span><h3><img className='w-10' src={batchcooks} alt="" /> </h3></span>
       <h3 className='mt-2 font-bold font-[Roboto]'>Batch cooks</h3>
       </div>
-      <p className='pl-8 text-center'>include a variety of colorful  fruits and vegetables to ensure  a wide range of nutrients</p>
+      <p className='font-semi-bold font-[Roboto]'>include a variety of colorful  fruits and vegetables to ensure  a wide range of nutrients</p>
       
       {/* icon2 */}
 
@@ -228,7 +228,7 @@ function Balanced(){
       <span><h3><img className='w-10' src={batchcooks} alt="" /> </h3></span>
       <h3 className='mt-2 font-bold font-[Roboto]'>Batch cooks</h3>
       </div>
-      <p className='pl-8 text-center'>include a variety of colorful  fruits and vegetables to ensure  a wide range of nutrients</p>
+      <p className='font-semi-bold font-[Roboto]'>include a variety of colorful  fruits and vegetables to ensure  a wide range of nutrients</p>
       
      
   {/* icon3 */}
@@ -237,7 +237,7 @@ function Balanced(){
       <span><h3><img className='w-10' src={time} alt="" /> </h3></span>
       <h3 className='mt-2 font-bold font-[Roboto]'>Batch cooks</h3>
       </div>
-      <p className='pl-8 text-center'>include a variety of colorful  fruits and vegetables to ensure  a wide range of nutrients.</p>
+      <p className='font-semi-bold font-[Roboto]'>include a variety of colorful  fruits and vegetables to ensure  a wide range of nutrients.</p>
       
      {/* icon4 */}
 
@@ -245,11 +245,11 @@ function Balanced(){
      <span><h3><img className='w-10' src={batchcooks} alt="" /> </h3></span>
       <h3 className='mt-2 font-bold font-[Roboto]'>Batch cooks</h3>
       </div>
-      <p className='pl-8 text-center'>include a variety of colorful  fruits and vegetables to ensure  a wide range of nutrients</p>
+      <p className='font-semi-bold font-[Roboto]'>include a variety of colorful  fruits and vegetables to ensure  a wide range of nutrients</p>
       
     <div className="end bg-[#d8ede2] mt-7 p-3">
     <h5 className='pr-90 py-2'>Pro Tip</h5>
-    <p>Freeze individual of  soups, stews and  casseroles for quick,  nutritious meals when you're  shor on time.</p>
+    <p className='font-semi-bold font-[Roboto]'>Freeze individual of  soups, stews and  casseroles for quick,  nutritious meals when you're  shor on time.</p>
     </div>
       </div>
 
