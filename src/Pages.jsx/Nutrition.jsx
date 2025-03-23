@@ -7,6 +7,7 @@ import intermmitentfasting  from '../assets/img/intermmitentfasting.jpg'
 import Dashdiet  from '../assets/img/Dashdiet.jpg'
 import protien from '../assets/icons/protien.png'
 import fats from '../assets/icons/fats.png'
+import fatplantbaseddiets from '../assets/img/plantbaseddiet.jpg'
 import React from 'react'
 
 const Nutrition = () => {
@@ -20,6 +21,7 @@ const Nutrition = () => {
 
    <Popular/>
    <Understand/>
+   <Balanced/>
   </>
   )
 }
@@ -32,7 +34,7 @@ const Popular=() =>{
    <h3 className=' text-2xl font-[Roboto]  font-bold'>Popular Diet Types</h3>
    <p className=''>Explore different dietary approaches and find what works best for your body lifesyle</p>
    </div>
-   <div className="grid grid-cols-1 md:grid-cols-3 gap-5 m-3 my-15 ">
+   <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mx-5  my-15 ">
     {/* img 1 */}
 <div className="img1">
 <img className='w-full rounded-lg' src={mediterranean} alt="" />
@@ -177,6 +179,42 @@ const Understand=()=>{
   )
 }
 
+
+function Balanced(){
+  return(
+    <>
+  <div className="title text-center bg-gray-100">
+    {/* title */}
+  <div className="title">
+  <h2 className='text-2xl font-[Roboto]  font-bold'>Balanced Meal Planing</h2>
+  <p>Create Nutritions, satisfying meals with these simple guidelines</p>
+  </div>
+
+{/* plate method */}
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+     <div className="shadow-lg bg-[#fff] p-5 my-15">
+      <h2 className='py-4'>The Plate method</h2>
+      <img src={plantbaseddiet} alt="" />
+    <div className="numbers my-10">
+    <h3><span className='bg-[#d8ede2] rounded-full text-center text-[#44B75E] px-2 py-1'>1</span>Fill half your plate whith non-starchy vegetables</h3>
+
+    </div>
+     </div>
+
+      <div className="shadow-lg bg-[#fff] p-5 my-15">
+      <h2 className='py-4'>The Plate method</h2>
+      <img src={plantbaseddiet} alt="" />
+
+       </div>
+
+
+     </div> 
+  </div>
+    </>
+
+  )
+
+}
 // End cards
 
 export default Nutrition;
