@@ -8,6 +8,8 @@ import Dashdiet  from '../assets/img/Dashdiet.jpg'
 import protien from '../assets/icons/protien.png'
 import fats from '../assets/icons/fats.png'
 import batchcooks from '../assets/icons/batchcooks.png'
+import investment from '../assets/icons/investment.png'
+import time from '../assets/icons/time.png'
 import fatplantbaseddiets from '../assets/img/plantbaseddiet.jpg'
 import React from 'react'
 
@@ -215,15 +217,42 @@ function Balanced(){
      
       <div className="icon1 flex">
       <span><h3><img className='w-10' src={batchcooks} alt="" /> </h3></span>
-      <h3 className='mt-2'>Batch cooks</h3>
+      <h3 className='mt-2 font-bold font-[Roboto]'>Batch cooks</h3>
       </div>
-      <p className='pl-8 text-center'>prepare grains, proteins, and roasted vegetables in advence</p>
+      <p className='pl-8 text-center'>include a variety of colorful  fruits and vegetables to ensure  a wide range of nutrients</p>
       
       {/* icon2 */}
-     
 
-      
+      <div className="icon1 flex">
+      <span><h3><img className='w-10' src={batchcooks} alt="" /> </h3></span>
+      <h3 className='mt-2 font-bold font-[Roboto]'>Batch cooks</h3>
       </div>
+      <p className='pl-8 text-center'>include a variety of colorful  fruits and vegetables to ensure  a wide range of nutrients</p>
+      
+     
+  {/* icon3 */}
+
+  <div className="icon1 flex">
+      <span><h3><img className='w-10' src={time} alt="" /> </h3></span>
+      <h3 className='mt-2 font-bold font-[Roboto]'>Batch cooks</h3>
+      </div>
+      <p className='pl-8 text-center'>include a variety of colorful  fruits and vegetables to ensure  a wide range of nutrients.</p>
+      
+     {/* icon4 */}
+
+     <div className="icon1 flex">
+     <span><h3><img className='w-10' src={batchcooks} alt="" /> </h3></span>
+      <h3 className='mt-2 font-bold font-[Roboto]'>Batch cooks</h3>
+      </div>
+      <p className='pl-8 text-center'>include a variety of colorful  fruits and vegetables to ensure  a wide range of nutrients</p>
+      
+    <div className="end bg-[#d8ede2] mt-7 p-3">
+    <h5 className='pr-90 py-2'>Pro Tip</h5>
+    <p>Freeze individual of  soups, stews and  casseroles for quick,  nutritious meals when you're  shor on time.</p>
+    </div>
+      </div>
+
+     
       </div>
       
 
