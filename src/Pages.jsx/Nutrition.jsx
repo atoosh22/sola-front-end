@@ -25,6 +25,7 @@ const Nutrition = () => {
    <Popular/>
    <Understand/>
    <Balanced/>
+   <Frequently/>
   </>
   )
 }
@@ -264,5 +265,38 @@ function Balanced(){
 
 }
 // End cards
+
+// last section frequently
+
+function Frequently(){
+  return(
+    <>
+
+    <div className="text text-center py-6">
+      <h3 className='text-2xl font-bold font-[Roboto]'>Frequently Asked Questions</h3>
+      <p>Common Questions about nutriton and diet</p>
+    </div>
+
+    <div className=" grid grid-cols-1 md:grid-cols-2 gap-7 ">
+      <div className="card1 shadow-lg border-2 border-red-50  p-10">
+        <h4 className='font-semi-bold font-4xl font-[Roboto]'>How many calories should I eat per day?</h4>
+        <p className='font-light font-[Roboto]'>Caloric needs very based on age , sex , weight, height and activity level . for general  guidance ,  
+          about women typically need 1,600-2400 colories per day. while adult man need 2,000-3,000 colories  
+          use our calculator  for personalzed recommandations.</p>
+      </div>
+      {/* car2 */}
+
+          <div className="card2 shadow-lg border-2 border-red-50 p-10 ">
+        <h5 className='font-semi-bold font-2xl font-[Roboto]'>What is the different B/w simple and complex corbohydrates?</h5>
+        <p>Simple carbs like suger and white flour(RDA)
+           are quickly digedted  and can spike blood suger complex. 
+           carbs like whole graind and vegetables contain fiber digest more slowly, and provide sustained energy with our dramatic blood suger fluctuations.</p>
+      </div>
+
+    </div>
+    </>
+  )
+}
+
 
 export default Nutrition;
