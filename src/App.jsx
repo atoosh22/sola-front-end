@@ -1,11 +1,12 @@
-import Nutrition from "./Pages.jsx/Nutrition";
+import Nutrition from "./Pages/Nutrition";
+
 
 function App(){
     return(
         <>
        
 
-        <Nutrition/>
+      <Nutrition/>
         </>
     )
 }
