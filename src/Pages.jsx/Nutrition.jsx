@@ -7,8 +7,10 @@ import intermmitentfasting  from '../assets/img/intermmitentfasting.jpg'
 import Dashdiet  from '../assets/img/Dashdiet.jpg'
 import protien from '../assets/icons/protien.png'
 import fats from '../assets/icons/fats.png'
+import carbohydrate from '../assets/icons/carbohydrate.png'
 import batchcooks from '../assets/icons/batchcooks.png'
 import investment from '../assets/icons/investment.png'
+import approach from '../assets/icons/approach.png'
 import time from '../assets/icons/time.png'
 import fatplantbaseddiets from '../assets/img/plantbaseddiet.jpg'
 import React from 'react'
@@ -17,7 +19,7 @@ const Nutrition = () => {
   return (
   <>
    <div className='bg-[#44B75E] text-white text-center py-15'>
-   <h2 className='text-4xl font-[Roboto] font-bold'>Nutrition & Diet Guide</h2>
+   <h2 className='text-5xl font-[Roboto] font-bold'>Nutrition & Diet Guide</h2>
    <p className='font-[Roboto] font-semi-bold'>Discover the Science of nutrition, explore different diet types. and learn how to create<br/> blanced meal plans for optical health</p>
    <button className='bg-white rounded-full text-[#44B75E] px-4 py-2 mt-4 font-[Roboto] cursor-pointer'>Explore Diet</button>
    </div>
@@ -134,7 +136,7 @@ const Understand=()=>{
  <div className="grid grid-cols1 md:grid-cols-3 gap-7 my-14 mx-6">
   {/* car1 */}
  <div className="car1 shadow-lg bg-gray-100 pl-10 my-6 py-4  w-full">
-  <img className='w-10' src={protien} alt="" />
+  <img className='w-9' src={protien} alt="" />
  <h4 className='font-bold my-2 font-[Roboto]'>proteins</h4>
   <p className='font-light font-[Roboto]'>Essential for building and reparing tissues, immune<br/> function ,enzyme production. </p>
   <h4 className='my-5 text-xl text-[#44B75E] font-[Roboto]'>Good Sources</h4>
@@ -149,7 +151,7 @@ const Understand=()=>{
  {/* car2 */}
 
  <div className="car1 shadow-lg bg-gray-100 pl-10 my-6 py-4  w-full">
-  <img className='w-12' src={fats} alt="" />
+  <img className='w-13' src={carbohydrate} alt="" />
  <h4 className='font-bold my-2 font-[]Roboto'>Carbohydrates</h4>
   <p className='font-light font-[Roboto]'>Primary enargy source for the body , especially the brain <br/> and during high-intensity exercise </p>
   <h4 className='my-5 text-xl text-[#44B75E] font-[Roboto]'>Good Sources</h4>
@@ -165,7 +167,7 @@ const Understand=()=>{
  {/* card3 */}
 
  <div className="car1 shadow-lg bg-gray-100 pl-10 my-6 py-4  w-full">
-  <img className='w-12' src={fats} alt="" />
+  <img className='w-11' src={fats} alt="" />
  <h4 className='font-bold my-2 font-[Roboto]'>Fats</h4>
   <p className='font-light font-[Roboto]'>Essential for building and reparing tissues, immune<br/> function ,enzyme production. </p>
   <h4 className='my-5 text-xl text-[#44B75E] font-[Roboto]'>Good Sources</h4>
@@ -220,36 +222,36 @@ function Balanced(){
       <span><h3><img className='w-10' src={batchcooks} alt="" /> </h3></span>
       <h3 className='mt-2 font-bold font-[Roboto]'>Batch cooks</h3>
       </div>
-      <p className='font-semi-bold font-[Roboto]'>include a variety of colorful  fruits and vegetables to ensure  a wide range of nutrients</p>
+      <p className='font-thin font-[Roboto]'> Prepare grains, proteins, and roasted vegetebles in advace for quickly meal assembly, throughout the week.</p>
       
       {/* icon2 */}
 
       <div className="icon1 flex">
-      <span><h3><img className='w-10' src={batchcooks} alt="" /> </h3></span>
-      <h3 className='mt-2 font-bold font-[Roboto]'>Batch cooks</h3>
+      <span><h3><img className='w-10' src={investment} alt="" /> </h3></span>
+      <h3 className='mt-2 font-bold font-[Roboto]'>Invest in quality containers</h3>
       </div>
-      <p className='font-semi-bold font-[Roboto]'>include a variety of colorful  fruits and vegetables to ensure  a wide range of nutrients</p>
+      <p className='font-thin font-[Roboto]'> Use glass containers with compartments to keep foods seperate and maintain freshness. </p>
       
      
   {/* icon3 */}
 
   <div className="icon1 flex">
       <span><h3><img className='w-10' src={time} alt="" /> </h3></span>
-      <h3 className='mt-2 font-bold font-[Roboto]'>Batch cooks</h3>
+      <h3 className='mt-2 font-bold font-[Roboto]'>Plan ahead</h3>
       </div>
-      <p className='font-semi-bold font-[Roboto]'>include a variety of colorful  fruits and vegetables to ensure  a wide range of nutrients.</p>
+      <p className='font-thin font-[Roboto]'>Set aside dedicated time each week for meal planing , shopping , and preparation.</p>
       
      {/* icon4 */}
 
      <div className="icon1 flex">
-     <span><h3><img className='w-10' src={batchcooks} alt="" /> </h3></span>
-      <h3 className='mt-2 font-bold font-[Roboto]'>Batch cooks</h3>
+     <span><h3><img className='w-10' src={approach} alt="" /> </h3></span>
+      <h3 className='mt-2 font-bold font-[Roboto]'>use the rainbow approach</h3>
       </div>
-      <p className='font-semi-bold font-[Roboto]'>include a variety of colorful  fruits and vegetables to ensure  a wide range of nutrients</p>
+      <p className='font-thin font-[Roboto]'>include a variety of colorful  fruits and vegetables to ensure  a wide range of nutrients</p>
       
     <div className="end bg-[#d8ede2] mt-7 p-3">
-    <h5 className='pr-90 py-2'>Pro Tip</h5>
-    <p className='font-semi-bold font-[Roboto]'>Freeze individual of  soups, stews and  casseroles for quick,  nutritious meals when you're  shor on time.</p>
+    <h4 className='pr-90 py-2 font-semi-bold '>Pro Tip</h4>
+    <p className='font-thin font-[Roboto]'>Freeze individual of  soups, stews and  casseroles for quick,  nutritious meals when you're  shor on time.</p>
     </div>
       </div>
 
