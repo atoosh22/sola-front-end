@@ -3,7 +3,7 @@ import mediterranean from '../assets/img/mediterranean.jpg'
 import katogonic from '../assets/img/katogonic.jpg'
 import plantbaseddiet  from '../assets/img/plantbaseddiet.jpg'
 import planbased  from '../assets/img/planbased.jpg'
-import paleodiet  from '../assets/img/paleodiet .jpg'
+import pleodiet  from '../assets/img/pleodiet.jpg'
 import intermmitentfasting  from '../assets/img/intermmitentfasting.jpg'
 import Dashdiet  from '../assets/img/Dashdiet.jpg'
 import protien from '../assets/icons/protien.png'
@@ -37,7 +37,7 @@ const Nutrition = () => {
 const Popular=() =>{
   return(
     <>
-   <div className='text-center mt-10'>
+   <div className='text-center mt-15'>
    <h3 className=' text-2xl font-[Roboto]  font-bold'>Popular Diet Types</h3>
    <p className='font-light font-[Roboto]'>Explore different dietary approaches and find what works best for your body lifesyle</p>
    </div>
@@ -81,7 +81,7 @@ const Popular=() =>{
 {/* img4 */}
 
 <div className="img4">
-<img className='w-full rounded-lg mt-20' src={paleodiet} alt="" />
+<img className='w-full rounded-lg mt-20' src={pleodiet} alt="" />
    <h3 className='text-xl font-bold my-4 font-[Roboto]'>Paleo Diet</h3>
    <p className='font-light font-[Roboto]'>Based on foods presumed  to available  to <br/> paleolithic human. Excludes  grains, dairy <br/> and   processed foods</p>
    <div className='flex gap-4 font-semi-bold my-6'>
