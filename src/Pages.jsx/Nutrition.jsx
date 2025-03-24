@@ -21,7 +21,7 @@ const Nutrition = () => {
   <>
    <div className='bg-[#44B75E] text-white text-center py-15'>
    <h2 className='text-5xl font-[Roboto] font-bold'>Nutrition & Diet Guide</h2>
-   <p className='font-[Poppins] font-semi-bold'>Discover the Science of nutrition, explore different diet types. and learn how to create<br/> blanced meal plans for optical health</p>
+   <p className='font-[Poppins] font-semi-bold my-2'>Discover the Science of nutrition, explore different diet types. and learn how to create<br/> blanced meal plans for optical health</p>
    <button className='bg-white rounded-full text-[#44B75E] px-4 py-2 mt-4 font-[Roboto] cursor-pointer'>Explore Diet</button>
    </div>
 
